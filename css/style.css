@@ -1,0 +1,3347 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'EuclidCircularB';
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body,
+textarea,
+input {
+	padding: 0;
+	margin: 0;
+	line-height: 1.5;
+	font-weight: 400;
+	color: white;
+	background-color: #161616;
+	font-family: 'Gilroy', sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: 400;
+	font-family: 'Gilroy'
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+@font-face {
+    font-family: 'EuclidCircularB';
+    src: url('EuclidCircularB-Light.eot');
+    src: local('EuclidCircularB'), local('EuclidCircularB-Light'),
+        url('../fonts/EuclidCircularB-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuclidCircularB-Light.woff2') format('woff2'),
+        url('../fonts/EuclidCircularB-Light.woff') format('woff'),
+        url('../fonts/EuclidCircularB-Light.ttf') format('truetype');
+   
+}
+
+.container {
+	max-width: 1460px;
+	margin: 0 auto;
+}
+
+.container-l {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	max-width: 1635px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*-_-_Header_CSS_Start_-_-*/
+header {
+	position: absolute;
+	width: 100%;
+	z-index: 9999;
+	padding: 61px 0px 0px;
+}
+
+.nav-content .header-btn {
+	background: linear-gradient(to right, #58F76D, #58D861);
+	width: 165px;
+	height: 54px;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*-_-_Header_CSS_End_-_-*/
+
+/*-_-_Banner_CSS_Start_-_-*/
+.banner {
+	padding: 259px 0px 0px;
+	overflow: hidden;
+	position: relative;
+}
+
+.general-blob {
+	position: absolute;
+}
+
+.banner-blob-right {
+	right: 44px;
+	top: 247px;
+}
+
+.banner .banner-inner {
+	padding: 90px 0px 0px 50px;
+}
+
+.banner-inner h1 {
+	font-size: 90px;
+	font-weight: 800;
+	max-width: 800px;
+	line-height: 98px;
+}
+
+.banner-inner p {
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 60px;
+	margin-bottom: 28px;
+}
+
+.banner-inner .general-btn {
+	background: linear-gradient(to right bottom, #57D760, #32A936);
+	width: 184px;
+	height: 49px;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+
+.general-btn i {
+	margin: auto 0px auto 12px;
+	padding-top: 8%;
+}
+
+.banner-blob-left {
+	left: 41px;
+	margin-top: 135px;
+}
+
+.banner .banner-preview {
+	width: 100%;
+	margin-left: 0;
+	margin-top: -200px;
+}
+
+/*-_-_Banner_CSS_End_-_-*/
+
+/*-_-_Content_CSS_Start_-_-*/
+
+
+/* Pricing Start */
+.pricing {
+	padding: 0px 15px 50px;
+	position: relative;
+}
+
+.pricing-inner {
+	position: relative;
+	background-color: #161616;
+	border-radius: 10px;
+	margin-top: -400px;
+	padding: 105px 0px 0px;
+	text-align: center;
+}
+
+.pricing-inner-wrap {
+	z-index: 99;
+	position: relative;
+}
+
+.pricing-blob-right {
+	right: 207px;
+	margin-top: 147px;
+	z-index: 99;
+}
+
+.pricing-blob-left {
+	left: 103px;
+	margin-top: 490px;
+	z-index: 99;
+}
+
+.sub-heading {
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 40px;
+	padding-bottom: 20px;
+}
+
+.sub-description {
+	font-size: 24px;
+	line-height: 40px;
+	color: #68F758;
+}
+
+.pricing-inner .pricing-card {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 49px;
+}
+
+
+
+.pricing-card .pricing-card-content {
+	background: linear-gradient(to right bottom, #2D2D2D, #202020);
+	border-radius: 15px;
+	padding: 48px 38px;
+	box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.16);
+	margin: 0px 20px;
+	text-align: left;
+}
+
+.pricing-card .pricing-card-content:hover{
+    transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+.pricing-card-content .price-heading {
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.price-heading h3 {
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 26px;
+	padding-bottom: 20px;
+}
+
+.price-heading span {
+	font-size: 35px;
+	line-height: 26px;
+	color: white;
+}
+
+.price-heading p {
+	font-size: 24px;
+	padding-left: 5px;
+	margin-top: 4px;
+	color: white;
+}
+
+span,
+i {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 100%;
+}
+
+.pricing-card-content .account-services {
+	padding-top: 55px;
+	min-height: 430px;
+}
+
+.account-services li {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.account-services i {
+	color: #44BF4B;
+	padding-right: 16px;
+}
+
+.pricing-card-content a {
+	background: linear-gradient(to right bottom, #57D760, #32A936);
+	width: 100%;
+	height: 49px;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.pricing-card .free-pricing-card {
+	margin: 50px 50px;
+	box-shadow: none;
+}
+
+.free-pricing-card a {
+	width: 260px;
+	height: 49px;
+	background: linear-gradient(to right bottom, #373737, #2D2D2D);
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+	margin: 20px 20px 0px auto;
+}
+
+.circle-right {
+	position: absolute;
+	right: -24%;
+	margin-top: -650px;
+}
+
+/* Pricing End */
+
+/* About us Start */
+
+.about-us {
+	padding: 350px 0px;
+}
+
+.about-us-wrap {
+	position: relative;
+}
+
+.about-blob-left-top {
+	right: 0px;
+	margin-top: -230px;
+}
+
+.circle-left {
+	position: absolute;
+	left: -24%;
+	margin-top: -410px;
+}
+
+.about-us-content {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+}
+
+.about-us-content .description {
+	font-size: 26px;
+	color: #777777;
+	line-height: 40px;
+	padding: 50px 0px;
+}
+
+.about-blob-right {
+	right: 0px;
+	margin-top: 20px;
+}
+
+.about-blob-left {
+	left: 0px;
+	margin-top: 100px;
+}
+
+/* About us End */
+
+/* Faq Start */
+.faq {
+	padding: 50px 0px;
+	margin-top: 100px;
+	background: url("../images/faq-background.svg") no-repeat center center;
+}
+
+.faq .faq-headings {
+	padding-left: 140px;
+}
+
+.card {
+	margin: 20px 140px;
+	border-radius: 15px;
+	border: 2px solid white;
+	overflow: hidden;
+	z-index: 99;
+}
+
+.card button {
+	color: white;
+}
+
+.card button:hover {
+	color: white;
+}
+
+.card-header {
+	background: linear-gradient(to right bottom, #373737, #2D2D2D);
+	color: white;
+	border: 2px solid white;
+	padding: 0px !important;
+	padding: 34px 70px 32px 36px;
+}
+
+.card-header .btn[aria-expanded=true] {
+	color: #fff;
+	background-color: black;
+	border-bottom: none;
+}
+
+
+.show {
+	background-color: black;
+}
+
+.card-body {
+	background-color: black !important;
+	padding: 0px 36px 36px;
+}
+
+.card-body p {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.collapsible-link {
+	width: 100%;
+	position: relative;
+	text-align: left;
+	text-decoration: none !important;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 40px;
+	padding: 34px 70px 32px 36px;
+}
+
+.collapsible-link::before {
+	content: '\f107';
+	position: absolute;
+	top: 50%;
+	right: 40px;
+	transform: translateY(-50%);
+	display: block;
+	font-family: 'FontAwesome';
+	font-size: 1.6rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+	content: '\f106';
+}
+
+.faq-blob-right {
+	right: 80px;
+	margin-top: -300px;
+}
+
+/* Faq End */
+
+/* Still Not Sure Start */
+.not-sure {
+	padding: 226px 0px 0px;
+	text-align: center;
+}
+
+.not-sure .not-sure-inner {
+	padding: 80px 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.not-sure-inner .not-sure-content {
+	padding: 30px 44px 37px;
+	border-radius: 15px;
+	width: 100%;
+	margin-bottom: 30px;
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	background: linear-gradient(to right bottom, #373737, #2D2D2D);
+}
+
+.not-sure-content .quote {
+	height: 29px;
+}
+
+.not-sure-content .avatar {
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+	border: 1px solid #707070;
+	padding: 7px 7px;
+	margin-left: 10px;
+}
+
+.avatar-content {
+	width: 65%;
+	text-align: left;
+	padding-left: 24px;
+	font-size: 17px;
+	line-height: 26px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+}
+
+.avatar-content span {
+	justify-content: left;
+}
+
+.not-sure-content .not-sure-content-preview {
+	background: linear-gradient(to right bottom, #585858, #3D3D3D);
+	height: 410px;
+	border-radius: 15px;
+	margin-top: 47px;
+}
+
+
+/* Still Not Sure End */
+
+/*-_-_Content_CSS_End_-_-*/
+
+/*-_-_Footer_CSS_Start_-_-*/
+footer {
+	padding: 0px 0px;
+}
+
+footer .graph {car
+	position: relative;
+	z-index: -1;
+	margin-top: -310px;
+}
+
+footer .footer-wrap {
+	background: linear-gradient(to right, #1a1a1a, #000000);
+	padding-bottom: 85.5px;
+}
+
+footer .footer-inner {
+	z-index: 99;
+	margin-top: -0px;
+}
+
+.footer-inner .join-us {
+	text-align: center;
+}
+
+.footer-inner .join-us h4 {
+	font-size: 40px;
+	line-height: 40px;
+}
+
+.footer-inner .join-us .join-us-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.join-us-btn .green-btn {
+	background: linear-gradient(to right bottom, #57D760, #32A936);
+	width: 184px;
+	height: 49px;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px 20px;
+}
+
+.join-us-btn .white-btn {
+	width: 184px;
+	height: 49px;
+	border: 2px solid white !important;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px 20px;
+}
+
+.white-btn i {
+	margin: auto 0px auto 12px;
+	padding-top: 8%;
+}
+
+.footer-inner .social-media {
+	text-align: center;
+}
+
+.social-media h4 {
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.social-media a {
+	background: rgba(255, 255, 255, 0.19);
+	border-radius: 10px;
+	width: 103px;
+	height: 103px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 20px 15px;
+}
+
+.footer-inner .important-links {
+	text-align: left;
+}
+
+.important-links h4 {
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.important-links ul {
+	padding-top: 20px;
+}
+
+.important-links ul li {
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.copyright {
+	display: flex;
+	padding-top: 71px;
+	justify-content: center;
+}
+
+.copyright img {
+	position: absolute;
+	left: 20px;
+	bottom: 0px;
+}
+
+/*-_-_Footer_CSS_End_-_-*/
+
+/*-_-_Responsiveness_-_-*/
+
+@media only screen and (max-width: 1600px) {
+
+	/* banner start  */
+	.banner .banner-preview {
+		max-width: calc(100% + 8%);
+		margin-top: -155px;
+	}
+
+	.banner-inner h1 {
+		font-size: 80px;
+	}
+
+	.banner-inner p {
+		font-size: 26px;
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-blob-right {
+		right: 80px;
+		margin-top: 120px;
+	}
+
+	.pricing-blob-left {
+		left: 20px;
+		margin-top: 490px;
+	}
+
+	.pricing-card-content .price-heading {
+		margin-left: 10px;
+	}
+
+	.price-heading span {
+		font-size: 30px;
+	}
+
+	.circle-right {
+		right: -35%;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-blob-left-top {
+		right: 220px;
+	}
+
+	.circle-left {
+		left: -34%;
+	}
+
+	.about-blob-right {
+		right: 100px;
+	}
+
+	.about-blob-left {
+		left: 100px;
+	}
+
+	/* About us end */
+
+
+	/* still not sure */
+
+	.avatar-content {
+		width: 65%;
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	/* still not sure */
+
+	/* footer start */
+
+	footer .graph {
+		margin-top: -150px;
+	}
+
+	.social-media a {
+		background-color: #585858;
+		border-radius: 10px;
+		width: 85px;
+		height: 85px;
+		margin: 20px 15px;
+	}
+
+	.social-media a img {
+		height: 35px;
+	}
+
+	/* footer end */
+
+}
+
+@media only screen and (max-width: 1440px) {
+    
+    
+    /* header start  */
+    	
+    header {
+       padding: 30px 30px 0px;
+    }
+    .nav-content .header-btn {
+    width: 150px;
+    height: 45px;
+    }
+
+
+	/* banner start  */
+	.banner {
+    padding: 110px 0px 0px;
+	    
+	}
+	
+
+    
+	.banner .banner-preview {
+		max-width: calc(100% + 8%);
+		margin-top: -144px;
+	}
+
+		.banner-blob-right {
+    height: 65px;
+    
+	}
+	.banner .banner-inner {
+    padding: 75px 0px 0px 65px;
+}
+	
+	.banner-blob-right {
+    right: 30px;
+    top: 150px;
+	    
+	}
+
+	.banner-inner h1 {
+		font-size: 63px;
+		line-height: 88px;
+	}
+
+
+	.banner-inner p {
+		font-size: 23px;
+		line-height: 50px;
+	}
+
+
+	.banner-blob-left {
+    height: 45px;
+	    
+	}
+	
+	.banner-blob-left {
+    left: 15px;
+    margin-top: 112px;
+	    
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-inner {
+		margin-top: -300px;
+	}
+
+	.pricing-blob-right {
+		right: 70px;
+		margin-top: 80px;
+		height: 80px;
+	}
+
+	.pricing-blob-left {
+		left: 20px;
+		margin-top: 400px;
+		height: 80px;
+	}
+
+	.pricing-card .pricing-card-content {
+		margin: 0px 0px 35px 0px;
+		padding: 55px 30px;
+	}
+
+	.sub-heading {
+		font-size: 52px;
+		line-height: 35px;
+	}
+
+	.sub-description {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+
+	.price-heading h3 {
+		font-size: 30px;
+		line-height: 26px;
+	}
+
+	.price-heading span {
+		font-size: 28px;
+		line-height: 26px;
+	}
+
+	.price-heading p {
+		font-size: 20px;
+		margin-top: 2px;
+	}
+
+	.circle-right {
+		right: -45%;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-us {
+		padding: 250px 50px;
+	}
+
+	.about-blob-left-top {
+		right: 120px;
+		height: 80px;
+	}
+
+	.circle-left {
+		left: -44%;
+	}
+
+	.about-blob-right {
+		right: 50px;
+		height: 110px;
+	}
+
+	.about-us-content .description {
+		font-size: 20px;
+		line-height: 35px;
+	}
+
+	.about-blob-left {
+		left: 50px;
+		height: 80px;
+	}
+
+	/* About us end */
+
+	/* faq start */
+
+	.collapsible-link {
+		font-size: 24px;
+	}
+
+	.card-body p {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.faq-blob-right {
+		right: 20px;
+		height: 55px;
+	}
+	
+	.card {
+    margin: 20px 165px;
+	    
+	}
+
+
+	/* faq end */
+
+	/* still not sure start */
+
+	.not-sure-content .quote {
+		height: 20px;
+	}
+
+	.not-sure-content .avatar {
+		height: 80px;
+		width: 80px;
+		border-radius: 50%;
+	}
+
+	.avatar-content {
+		width: 75%;
+		font-size: 14px;
+	}
+
+	.not-sure-content .not-sure-content-preview {
+		height: 405px;
+	}
+
+	/* still not sure end */
+
+	/* footer start */
+
+	footer .graph {
+		margin-top: -150px;
+	}
+	
+	footer .footer-wrap {
+	    
+    padding-bottom: 20px;
+	    
+	}
+
+	.footer-inner .join-us h4 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.join-us-btn .green-btn {
+		margin: 0px 10px;
+	}
+
+	.join-us-btn .white-btn {
+		margin: 0px 10px;
+	}
+
+	.social-media h4 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+
+	.important-links h4 {
+		font-size: 28px;
+	}
+
+	.social-media a {
+		background-color: #585858;
+		border-radius: 10px;
+		width: 60px;
+		height: 60px;
+		margin: 20px 15px;
+	}
+
+	.social-media a img {
+		height: 30px;
+	}
+
+	/* footer end */
+
+}
+
+@media only screen and (max-width: 1320px) {
+
+	/* banner start  */
+	
+	.banner {
+    padding: 200px 0px 0px;
+}
+
+	.banner-blob-right {
+		height: 65px;
+	}
+
+	.banner .banner-inner {
+		padding: 40px 0px 0px 50px;
+	}
+
+	.banner-inner h1 {
+		font-size: 55px;
+		max-width: 680px;
+		line-height: 75px;
+	}
+
+
+	.banner-inner p {
+		font-size: 19px;
+		line-height: 50px;
+	}
+
+
+	.banner-blob-left {
+		height: 65px;
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-inner {
+		margin-top: -260px;
+	}
+
+	.pricing-blob-right {
+		right: 65px;
+		margin-top: 70px;
+		height: 65px;
+	}
+
+	.pricing-blob-left {
+		left: 20px;
+		margin-top: 340px;
+		height: 65px;
+	}
+
+	.sub-heading {
+		font-size: 45px;
+		line-height: 30px;
+	}
+
+	.sub-description {
+		font-size: 17px;
+		line-height: 25px;
+	}
+
+	.price-heading h3 {
+		font-size: 28px;
+		line-height: 24px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+
+	.price-heading span {
+		font-size: 24px;
+		line-height: 24px;
+	}
+
+	.price-heading p {
+		font-size: 18px;
+		margin-top: 2px;
+	}
+
+	.account-services li {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.circle-right {
+		right: -40%;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-us {
+		padding: 250px 50px;
+	}
+
+	.about-blob-left-top {
+		right: 140px;
+		height: 65px;
+	}
+
+	.circle-left {
+		left: -45%;
+	}
+
+	.about-blob-right {
+		right: 50px;
+		height: 85px;
+	}
+
+	.about-us-content .description {
+		font-size: 18px;
+		line-height: 32px;
+	}
+
+	.about-blob-left {
+		left: 50px;
+		height: 65px;
+	}
+
+	/* About us end */
+
+	/* faq start */
+
+	.collapsible-link {
+		font-size: 22px;
+	}
+
+	.card-body p {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	.faq-blob-right {
+		right: 20px;
+		height: 65px;
+	}
+
+	/* faq end */
+
+	/* still not sure start */
+
+	.not-sure-content .quote {
+		margin-top: 0px;
+		height: 17px;
+	}
+
+	.not-sure-content .avatar {
+		height: 70px;
+		width: 70px;
+		padding: 4px 4px;
+	}
+
+	.avatar-content {
+		width: 72%;
+		padding-left: 10px;
+		font-size: 13px;
+		line-height: 27px;
+	}
+
+	.not-sure-content .not-sure-content-preview {
+		height: 420px;
+	}
+
+	/* still not sure end */
+
+	/* footer start */
+
+	footer .graph {
+		margin-top: -130px;
+	}
+
+	.footer-inner .join-us h4 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.join-us-btn .green-btn {
+		margin: 0px 8px;
+	}
+
+	.join-us-btn .white-btn {
+		margin: 0px 8px;
+	}
+
+	.social-media h4 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+
+	.important-links h4 {
+		font-size: 25px;
+	}
+
+	.social-media a {
+		width: 65px;
+		height: 65px;
+	}
+
+	.social-media a img {
+		height: 25px;
+	}
+
+	.important-links ul li {
+		font-size: 13px;
+		line-height: 34px;
+	}
+
+	.copyright img {
+		height: 45px;
+	}
+
+	.copyright p {
+		font-size: 12px;
+	}
+
+	footer .footer-wrap {
+		padding-bottom: 70px;
+	}
+	/* footer end */
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+	/* header start */
+	.nav-content .header-btn {
+		width: 155px;
+		height: 50px;
+	}
+
+	/* header start */
+
+	/* banner start  */
+	.banner {
+    padding: 205px 0px 0px;
+}
+
+	.banner-blob-right {
+		height: 55px;
+	}
+
+	.banner .banner-inner {
+		padding: 0px 0px 0px 50px;
+	}
+
+	.banner-inner h1 {
+		font-size: 50px;
+		max-width: 570px;
+		line-height: 60px;
+	}
+
+
+	.banner-inner p {
+		font-size: 18px;
+		line-height: 50px;
+		margin-bottom: 45px;
+	}
+
+
+	.banner-blob-left {
+		margin-top: 26px;
+		height: 36px;
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-blob-right {
+		right: 55px;
+		height: 55px;
+	}
+
+	.pricing-blob-left {
+		margin-top: 340px;
+		height: 55px;
+	}
+
+	.sub-heading {
+		font-size: 45px;
+		line-height: 28px;
+	}
+
+	.sub-description {
+		font-size: 17px;
+		line-height: 23px;
+	}
+
+	.price-heading h3 {
+		font-size: 25px;
+	}
+
+	.price-heading span {
+		font-size: 21px;
+		line-height: 24px;
+	}
+
+	.price-heading p {
+		font-size: 17px;
+		margin-top: 1px;
+	}
+
+	.pricing-card-content .account-services {
+		padding-top: 35px;
+		min-height: 400px;
+	}
+
+	.account-services li {
+		font-size: 10px;
+		line-height: 26px;
+	}
+
+	.circle-right {
+		right: -40%;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-us {
+		padding: 220px 50px;
+	}
+
+	.about-blob-left-top {
+		right: 100px;
+		height: 55px;
+	}
+
+	.circle-left {
+		left: -45%;
+	}
+
+	.about-blob-right {
+		right: 50px;
+		height: 75px;
+	}
+
+	.about-us-content .description {
+		font-size: 17px;
+		line-height: 30px;
+	}
+
+	.about-blob-left {
+		left: 40px;
+		height: 55px;
+	}
+
+	/* About us end */
+
+	/* faq start */
+
+	.collapsible-link {
+		font-size: 21px;
+		padding: 25px;
+	}
+
+	.card-body p {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	.faq-blob-right {
+		right: 20px;
+		height: 55px;
+	}
+
+	/* faq end */
+
+	/* still not sure start */
+
+	.not-sure-content .quote {
+		margin-top: 0px;
+		height: 15px;
+	}
+
+	.not-sure-content .avatar {
+		height: 60px;
+		width: 60px;
+	}
+
+	.avatar-content {
+		width: 68%;
+		padding-left: 12px;
+		font-size: 13px;
+		line-height: 27px;
+		font-size: 10px;
+	}
+
+	.not-sure-content .not-sure-content-preview {
+		height: 365px;
+	}
+
+	/* still not sure end */
+
+	/* footer start */
+
+	.footer-inner .join-us h4 {
+		font-size: 28px;
+		line-height: 35px;
+	}
+
+	.join-us-btn .green-btn {
+		font-size: 17px;
+		margin: 0px 6px;
+	}
+
+	.join-us-btn .white-btn {
+		font-size: 17px;
+		margin: 0px 6px;
+	}
+
+	.social-media h4 {
+		font-size: 22px;
+		line-height: 40px;
+	}
+
+	.important-links h4 {
+		font-size: 22px;
+	}
+
+	.social-media a {
+		width: 55px;
+		height: 55px;
+	}
+
+	.social-media a img {
+		height: 21px;
+	}
+
+	footer .footer-wrap {
+		padding-bottom: 55px;
+	}
+
+	.copyright {
+		padding-top: 60px;
+	}
+
+
+	/* footer end */
+
+}
+
+@media only screen and (max-width: 991px) {
+
+	/* header start */
+	header {
+		padding: 41px 0px 0px;
+	}
+
+	/* header end */
+
+	/* banner start  */
+
+	.banner-blob-right {
+		height: 45px;
+	}
+
+	.banner-inner h1 {
+		font-size: 42px;
+		max-width: 530px;
+		line-height: 50px;
+	}
+	.banner .banner-preview {
+    max-width: calc(100% + 8%);
+    margin-top: -87px;
+	   
+	    
+	}
+
+
+	.banner-inner p {
+		font-size: 15px;
+		line-height: 35px;
+		margin-bottom: 45px;
+	}
+
+	.banner-blob-left {
+		margin-top: 60px;
+		height: 32px;
+	}
+
+	.banner-inner .general-btn {
+		font-size: 14px;
+	}
+
+	.general-btn i {
+		padding-top: 10%;
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-inner {
+		margin-top: -180px;
+	}
+
+	.pricing-blob-right {
+		height: 45px;
+	}
+
+	.pricing-blob-left {
+		margin-top: 340px;
+		height: 45px;
+	}
+
+	.sub-heading {
+		font-size: 40px;
+		line-height: 24px;
+	}
+
+	.sub-description {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.price-heading h3 {
+		font-size: 22px;
+	}
+
+	.price-heading span {
+		font-size: 19px;
+		line-height: 20px;
+	}
+
+	.price-heading p {
+		font-size: 15px;
+		margin-top: 1px;
+	}
+
+	.pricing-card-content .account-services {
+		padding-top: 45px;
+		min-height: 400px;
+	}
+
+	.pricing-card-content .account-services li {
+		font-size: 10px;
+		line-height: 26px;
+	}
+
+	.circle-right {
+		right: -40%;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-us {
+		padding: 220px 50px;
+	}
+
+	.about-blob-left-top {
+		right: 100px;
+		height: 45px;
+	}
+
+	.circle-left {
+		left: -45%;
+	}
+
+	.about-blob-right {
+		right: 40px;
+		height: 55px;
+	}
+
+	.about-blob-left {
+		height: 45px;
+	}
+
+	/* About us end */
+
+	/* faq start */
+
+	.faq .faq-headings {
+		padding-left: 100px;
+	}
+
+	.card {
+		margin: 20px 100px;
+	}
+
+	.collapsible-link {
+		font-size: 19px;
+		padding: 20px 20px;
+	}
+
+	.card-body {
+		padding: 30px 20px !important;
+	}
+
+	.card-body p {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	.faq-blob-right {
+		right: 20px;
+		height: 45px;
+	}
+
+	/* faq end */
+
+	/* still not sure start */
+
+	.not-sure {
+		padding: 160px 0px 0px;
+	}
+
+	.not-sure-content .quote {
+		height: 15px;
+	}
+
+	.not-sure-content .avatar {
+		height: 70px;
+		width: 70px;
+	}
+
+	.avatar-content {
+		width: 85%;
+		font-size: 14px;
+
+	}
+
+	.not-sure-content .not-sure-content-preview {
+		height: 350px;
+	}
+
+	/* still not sure end */
+
+	/* footer start */
+
+	.footer-inner .join-us h4 {
+		font-size: 22px;
+		line-height: 35px;
+	}
+
+	.join-us-btn .green-btn {
+		margin: 0px 8px;
+		font-size: 12px;
+	}
+
+	.join-us-btn .white-btn {
+		margin: 0px 8px;
+		font-size: 12px;
+	}
+
+	.white-btn i {
+		padding-top: 12%;
+	}
+
+	.social-media h4 {
+		font-size: 20px;
+		line-height: 35px;
+	}
+
+	.important-links {
+		padding: 30px 20px;
+	}
+
+	.important-links h4 {
+		font-size: 20px;
+		line-height: 35px;
+		padding-left: 0px;
+	}
+
+	.social-media a {
+		width: 50px;
+		height: 50px;
+	}
+
+	.social-media a img {
+		height: 19px;
+	}
+
+	.copyright p {
+		font-size: 10px;
+	}
+
+	/* footer end */
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	/* header start */
+
+	header {
+		padding: 30px 10px 0px;
+	}
+
+	.navbar-brand img {
+		width: 200px;
+	}
+
+	.nav-content .header-btn {
+		width: 125px;
+		height: 40px;
+		font-size: 14px;
+	}
+
+	/* header end */
+
+
+	/* banner start  */
+
+	.banner .banner-inner {
+		margin: -50px 0px 0px;
+	}
+
+	.banner-blob-right {
+		height: 40px;
+		right: 31px;
+		top: 147px;
+	}
+
+	.banner-inner h1 {
+		font-size: 38px;
+		max-width: 480px;
+		line-height: 45px;
+	}
+
+
+	.banner-inner p {
+		font-size: 13px;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+
+	.banner-blob-left {
+		margin-top: 60px;
+	
+	}
+
+	.banner-inner .general-btn {
+		font-size: 14px;
+		width: 155px;
+		height: 44px;
+	}
+	.banner .banner-preview {
+    max-width: calc(100% + 8%);
+    margin-top: -80px;
+	    
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-inner {
+		margin-top: -140px;
+		padding: 80px 0px 0px;
+	}
+
+	.pricing-blob-right {
+		height: 40px;
+	}
+
+	.pricing-blob-left {
+		margin-top: 280px;
+		height: 40px;
+	}
+
+	.sub-heading {
+		font-size: 30px;
+		line-height: 20px;
+		padding-bottom: 10px;
+	}
+
+	.sub-description {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.pricing-card .pricing-card-content {
+		margin: 0px 55px 35px 55px;
+		padding: 55px 30px;
+	}
+
+	.price-heading h3 {
+		font-size: 22px;
+	}
+
+	.price-heading span {
+		font-size: 19px;
+		line-height: 20px;
+	}
+
+	.price-heading p {
+		font-size: 15px;
+		margin-top: 1px;
+	}
+
+	.pricing-card-content .account-services {
+		padding-top: 45px;
+		min-height: 390px;
+	}
+
+	.pricing-card-content .account-services li {
+		font-size: 14px;
+	}
+
+	.free-pricing-card a {
+		width: 160px;
+		height: 43px;
+		font-size: 13px;
+	}
+
+	.circle-right {
+		right: -50%;
+		height: 600px;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-us {
+		padding: 120px 50px;
+	}
+
+	.about-blob-left-top {
+		margin-top: 0px;
+		right: 100px;
+		height: 40px;
+	}
+
+	.circle-left {
+		left: -55%;
+		height: 750px;
+	}
+
+	.about-blob-right {
+		right: 40px;
+		height: 55px;
+	}
+
+	.about-blob-left {
+		height: 40px;
+	}
+
+	/* About us end */
+
+	/* faq start */
+
+	.faq .faq-headings {
+		padding-left: 50px;
+	}
+
+	.card {
+		margin: 20px 50px;
+	}
+
+	.collapsible-link {
+		font-size: 17px;
+		padding: 15px 15px;
+	}
+
+	.collapsible-link::before {
+		font-size: 1.2rem;
+	}
+
+	.card-body {
+		padding: 15px 20px !important;
+	}
+
+	.card-body p {
+		font-size: 13px;
+		line-height: 24px;
+	}
+
+	.faq-blob-right {
+		right: 20px;
+		height: 40px;
+	}
+
+	/* faq end */
+
+	/* still not sure start */
+
+	.not-sure {
+		padding: 100px 0px 0px;
+	}
+
+	.not-sure-content .quote {
+		height: 12px;
+	}
+
+	.not-sure-content .avatar {
+		height: 65px;
+		width: 65px;
+	}
+
+	.avatar-content {
+		width: 75%;
+		font-size: 12px;
+	}
+
+	.not-sure-content .not-sure-content-preview {
+		height: 300px;
+		margin-top: 30px;
+	}
+
+	/* still not sure end */
+
+	/* footer start */
+
+	footer .graph {
+		margin-top: -150px;
+	}
+
+	footer .footer-wrap {
+		margin-top: 110px;
+		padding-bottom: 40px;
+	}
+
+	footer .footer-inner {
+		margin-top: -120px;
+	}
+
+	.footer-inner .join-us h4 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.join-us-btn .green-btn {
+		margin: 0px 8px;
+		font-size: 12px;
+		width: 155px;
+		height: 44px;
+	}
+
+	.join-us-btn .white-btn {
+		margin: 0px 8px;
+		font-size: 12px;
+		width: 155px;
+		height: 44px;
+	}
+
+	.white-btn i {
+		padding-top: 10%;
+	}
+
+	.social-media h4 {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.important-links h4 {
+		font-size: 18px;
+		line-height: 30px;
+		padding-left: 0px;
+	}
+
+	.social-media a {
+		width: 45px;
+		height: 45px;
+	}
+
+	.social-media a img {
+		height: 15px;
+	}
+
+	.footer-inner .important-links {
+		padding: 30px 20px 0px;
+	}
+
+	.important-links ul li {
+		font-size: 12px;
+		line-height: 30px;
+	}
+
+	.copyright img {
+		height: 25px;
+	}
+
+	.copyright {
+		padding-top: 50px;
+	}
+
+	/* footer end */
+
+}
+
+@media only screen and (max-width: 640px) {
+
+	/* header start */
+
+
+
+	.navbar-brand img {
+		width: 170px;
+	}
+
+	.nav-content .header-btn {
+		width: 105px;
+		height: 38px;
+		font-size: 12px;
+	}
+
+	/* header end */
+
+
+	/* banner start  */
+
+	.banner-blob-right {
+		height: 35px;
+		right: 25px;
+		top: 137px;
+	}
+
+	.banner-inner h1 {
+		font-size: 32px;
+		max-width: 400px;
+		line-height: 40px;
+	}
+
+	.banner-inner p {
+		font-size: 12px;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+
+	.banner-blob-left {
+		margin-top: 55px;
+	
+	}
+
+	.banner-inner .general-btn {
+		font-size: 12px;
+		width: 135px;
+		height: 40px;
+	}
+
+	.banner .banner-preview {
+		margin-top: -65px;
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-inner {
+		margin-top: -140px;
+		padding: 70px 0px 0px;
+	}
+
+	.pricing-blob-right {
+		height: 35px;
+	}
+
+	.pricing-blob-left {
+		margin-top: 200px;
+		height: 35px;
+		left: 5px;
+	}
+
+	.sub-heading {
+		font-size: 32px;
+		line-height: 20px;
+		padding-bottom: 10px;
+	}
+
+	.sub-description {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.pricing-card .pricing-card-content {
+		margin: 0px 50px 35px 50px;
+		padding: 35px 25px;
+	}
+
+	.price-heading h3 {
+		font-size: 20px;
+	}
+
+	.price-heading span {
+		font-size: 17px;
+		line-height: 20px;
+	}
+
+	.price-heading p {
+		font-size: 13px;
+		margin-top: 1px;
+	}
+
+	.pricing-card-content .account-services {
+		padding-top: 35px;
+		min-height: 390px;
+	}
+
+	.pricing-card-content .account-services li {
+		font-size: 12px;
+	}
+
+	.pricing-card-content a {
+		height: 44px;
+		font-size: 14px;
+	}
+
+	.pricing-card .pricing-card-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.free-pricing-card a {
+		width: 150px;
+		height: 40px;
+		font-size: 12px;
+	}
+
+	.price-heading p {
+		font-size: 13px;
+		margin-top: 1px;
+		padding-left: 0px;
+	}
+
+	.circle-right {
+		right: -50%;
+		height: 500px;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-us {
+		padding: 80px 30px;
+	}
+
+	.about-blob-left-top {
+		margin-top: 0px;
+		right: 50px;
+		height: 35px;
+	}
+
+	.circle-left {
+		left: -55%;
+		height: 650px;
+		margin-top: -240px;
+	}
+
+	.about-us-content .description {
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+	.about-blob-right {
+		right: 40px;
+		height: 45px;
+	}
+
+	.about-blob-left {
+		height: 35px;
+	}
+
+	/* About us end */
+
+	/* faq start */
+
+	.faq .faq-headings {
+		padding-left: 30px;
+	}
+
+	.card {
+		margin: 20px 30px;
+	}
+
+	.collapsible-link {
+		font-size: 15px;
+		padding: 12px 12px;
+	}
+
+	.card-body p {
+		font-size: 12px;
+		line-height: 22px;
+	}
+
+	.faq-blob-right {
+		right: 20px;
+		height: 35px;
+	}
+
+	/* faq end */
+
+	/* still not sure start */
+
+	.not-sure {
+		padding: 70px 0px 0px;
+	}
+
+	.not-sure-content .quote {
+		height: 10 px;
+	}
+
+	.not-sure-content .avatar {
+		height: 55px;
+		width: 55px;
+	}
+
+	.avatar-content {
+		width: 75%;
+		font-size: 12px;
+	}
+
+	.not-sure-content .not-sure-content-preview {
+		height: 300px;
+		margin-top: 30px;
+	}
+
+	/* still not sure end */
+
+	/* footer start */
+
+	footer .footer-inner {
+		margin-top: -120px;
+	}
+
+	.footer-inner .join-us h4 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.join-us-btn .green-btn {
+		margin: 0px 8px;
+		font-size: 12px;
+		width: 155px;
+		height: 44px;
+	}
+
+	.join-us-btn .white-btn {
+		margin: 0px 8px;
+		font-size: 12px;
+		width: 155px;
+		height: 44px;
+	}
+
+	.white-btn i {
+		padding-top: 10%;
+	}
+
+	.social-media h4 {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.important-links h4 {
+		font-size: 18px;
+		line-height: 30px;
+		padding-left: 0px;
+	}
+
+	.social-media a {
+		width: 45px;
+		height: 45px;
+	}
+
+	.social-media a img {
+		height: 15px;
+	}
+
+	.footer-inner .important-links {
+		padding: 30px 20px 0px;
+	}
+
+	.important-links ul li {
+		font-size: 12px;
+		line-height: 30px;
+	}
+
+	/* footer end */
+}
+
+@media only screen and (max-width: 575px) {
+
+	/* header start */
+
+	header {
+		padding: 20px 0px 0px;
+	}
+
+	.navbar-brand img {
+		width: 140px;
+	}
+
+	.nav-content .header-btn {
+		width: 95px;
+		height: 32px;
+		font-size: 12px;
+	}
+
+	/* header end */
+
+
+	/* banner start  */
+
+	.banner-blob-right {
+		height: 30px;
+		right: 25px;
+		top: 110px;
+	}
+
+	.banner .banner-inner {
+		margin: -90px 0px 0px;
+		padding: 0px 0px 0px 10px;
+	}
+
+	.banner-inner h1 {
+		font-size: 28px;
+		max-width: 340px;
+		line-height: 40px;
+	}
+
+	.banner-inner p {
+		font-size: 10px;
+		line-height: 25px;
+		margin-bottom: 25px;
+	}
+
+	.banner-blob-left {
+		margin-top: 48px;
+		height: 30px;
+	}
+
+	.banner .banner-preview {
+		margin-top: -27px;
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-inner {
+		margin-top: -120px;
+		padding: 70px 0px 0px;
+	}
+
+	.pricing-blob-right {
+		height: 30px;
+		margin-top: 40px;
+	}
+
+	.pricing-blob-left {
+		margin-top: 150px;
+		height: 30px;
+		left: 10px;
+	}
+
+	.sub-heading {
+		font-size: 24px;
+		line-height: 20px;
+		padding-bottom: 5px;
+	}
+
+	.sub-description {
+		font-size: 10px;
+		line-height: 15px;
+	}
+
+	.pricing-card .pricing-card-content {
+		margin: 0px 30px 35px 30px;
+		padding: 30px 20px;
+	}
+
+	.price-heading h3 {
+		font-size: 18px;
+	}
+
+	.price-heading span {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.price-heading p {
+		font-size: 12px;
+		margin-top: 1px;
+	}
+
+	.price-heading p {
+		font-size: 13px;
+		margin-top: 1px;
+		padding-left: 2px;
+	}
+
+	.free-pricing-card a {
+		width: 85px;
+		height: 30px;
+		font-size: 8px;
+	}
+
+	.circle-right {
+		right: -40%;
+		height: 400px;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-us {
+		padding: 80px 10px;
+	}
+
+	.about-blob-left-top {
+		margin-top: 0px;
+		right: 30px;
+		height: 30px;
+	}
+
+	.circle-left {
+		left: -55%;
+		height: 550px;
+		margin-top: -180px;
+	}
+
+	.about-us-content .description {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.about-blob-right {
+		right: 30px;
+		height: 40px;
+	}
+
+	.about-blob-left {
+		height: 30px;
+	}
+
+	/* About us end */
+
+	/* faq start */
+
+	.faq .faq-headings {
+		padding-left: 10px;
+	}
+
+	.card {
+		margin: 20px 10px;
+	}
+
+	.collapsible-link {
+		font-size: 13px;
+		padding: 10px 10px;
+	}
+
+	.card-body p {
+		font-size: 10px;
+		line-height: 20px;
+	}
+
+	.faq-blob-right {
+		display: none;
+	}
+
+	/* faq end */
+
+	/* still not sure start */
+
+	.not-sure {
+		padding: 50px 0px 0px;
+	}
+
+	.not-sure-content .quote {
+		height: 10px;
+	}
+
+	.not-sure-content .avatar {
+		height: 50px;
+		width: 50px;
+	}
+
+	.avatar-content {
+		width: 75%;
+		font-size: 10px;
+		margin-top: 0px;
+	}
+
+	.not-sure-content .not-sure-content-preview {
+		height: 250px;
+	}
+
+	/* still not sure end */
+
+	/* footer start */
+
+	footer .footer-inner {
+		margin-top: -130px;
+	}
+
+	.footer-inner .join-us {
+		text-align: left;
+	}
+
+	.footer-inner .join-us .join-us-btn {
+		justify-content: left;
+		flex-wrap: wrap;
+	}
+
+	.footer-inner .join-us h4 {
+		font-size: 20px;
+		line-height: 30px;
+		padding-left: 10px;
+	}
+
+	.join-us-btn .green-btn {
+		margin: 0px 8px;
+		font-size: 12px;
+		width: 135px;
+		height: 40px;
+	}
+
+	.join-us-btn .white-btn {
+		margin: 0px 8px;
+		font-size: 12px;
+		width: 135px;
+		height: 40px;
+	}
+
+	.social-media {
+		padding: 30px 10px 0px;
+	}
+
+	.social-media .row {
+		justify-content: left !important;
+	}
+
+	.social-media h4 {
+		text-align: left;
+	}
+
+	.social-media a {
+		margin: 20px 10px;
+	}
+
+	.social-media a img {
+		height: 15px;
+	}
+
+	.footer-inner .important-links {
+		padding: 30px 10px 0px;
+	}
+
+	/* footer end */
+}
+
+@media only screen and (max-width: 480px) {
+
+	/* banner start  */
+
+	.banner-blob-right {
+		height: 25px;
+		right: 20px;
+		top: 100px;
+	}
+
+	.banner .banner-inner {
+		padding: 0px 0px 0px 10px;
+	}
+
+	.banner-inner h1 {
+		font-size: 24px;
+		max-width: 300px;
+		line-height: 30px;
+	}
+
+	.banner-inner p {
+		font-size: 10px;
+		line-height: 18px;
+		margin-bottom: 20px;
+	}
+
+	.banner-blob-left {
+		margin-top: 56px;
+		height: 25px;
+		left: 20px;
+	}
+
+	.banner-inner .general-btn {
+		font-size: 8px;
+		width: 100px;
+		height: 30px;
+	}
+
+	.banner .banner-preview {
+		margin-top: -28px;
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-inner {
+		margin-top: -90px;
+		padding: 70px 0px 0px;
+	}
+
+	.pricing-blob-right {
+		height: 25px;
+		margin-top: 40px;
+		right: 40px;
+	}
+
+	.pricing-blob-left {
+		margin-top: 100px;
+		height: 25px;
+		left: 10px;
+	}
+
+	.sub-heading {
+		font-size: 21px;
+		line-height: 20px;
+		padding-bottom: 5px;
+	}
+
+	.sub-description {
+		font-size: 10px;
+		line-height: 10px;
+	}
+
+	.pricing-card .pricing-card-content {
+		margin: 0px 0px 35px 0px;
+		padding: 30px 20px;
+	}
+
+	.price-icon img {
+		height: 70px;
+	}
+
+	.price-heading h3 {
+		font-size: 16px;
+		padding-bottom: 0px;
+	}
+
+	.price-heading span {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.price-heading p {
+		font-size: 10px;
+		margin-top: 1px;
+	}
+
+	.circle-right {
+		right: -40%;
+		height: 350px;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-us {
+		padding: 50px 10px;
+	}
+
+	.about-blob-left-top {
+		margin-top: 0px;
+		right: 20px;
+		height: 25px;
+	}
+
+	.circle-left {
+		left: -55%;
+		height: 500px;
+		margin-top: -180px;
+	}
+
+	.about-us-content .description {
+		font-size: 10px;
+		line-height: 20px;
+		padding: 30px 0px;
+	}
+
+	.about-blob-right {
+		right: 20px;
+		height: 30px;
+	}
+
+	.about-blob-left {
+		height: 25px;
+		left: 25px;
+	}
+
+	/* About us end */
+
+	/* faq start */
+
+	.faq .faq-headings {
+		padding-left: 10px;
+	}
+
+	.card {
+		margin: 15px 10px;
+	}
+
+	.collapsible-link {
+		font-size: 12px;
+		padding: 8px 10px;
+	}
+
+	.card-body p {
+		font-size: 10px;
+		line-height: 16px;
+	}
+
+	/* faq end */
+
+	/* still not sure start */
+
+	.not-sure {
+		padding: 30px 0px 0px;
+	}
+
+	.not-sure .not-sure-inner {
+		padding: 30px 0px;
+	}
+
+	.not-sure-inner .not-sure-content {
+		padding: 20px 24px;
+	}
+
+	/* still not sure end */
+
+	/* footer start */
+
+	footer .graph {
+		margin-top: -80px;
+	}
+
+	footer .footer-inner {
+		margin-top: -120px;
+	}
+
+	.footer-inner .join-us h4 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.join-us-btn .green-btn {
+		margin: 0px 8px;
+		font-size: 10px;
+		width: 115px;
+		height: 35px;
+	}
+
+	.join-us-btn .white-btn {
+		margin: 0px 8px;
+		font-size: 10px;
+		width: 115px;
+		height: 35px;
+	}
+
+	.social-media {
+		padding: 20px 10px 0px;
+	}
+
+	.social-media .row {
+		justify-content: left !important;
+	}
+
+	.social-media h4 {
+		font-size: 16px;
+		text-align: left;
+	}
+
+	.social-media a {
+		margin: 20px 10px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.social-media a img {
+		height: 12px;
+	}
+
+	.important-links h4 {
+		font-size: 16px;
+	}
+
+	.important-links ul li {
+		font-size: 10px;
+		line-height: 25px;
+	}
+
+	.footer-inner .important-links {
+		padding: 20px 10px 0px;
+	}
+
+	/* footer end */
+}
+
+@media only screen and (max-width: 420px) {
+
+	/* header start */
+
+	.navbar-brand img {
+		width: 125px;
+	}
+
+	.nav-content .header-btn {
+		width: 90px;
+		height: 30px;
+	}
+
+	/* header end */
+
+	/* banner start  */
+
+	.banner-blob-right {
+		height: 20px;
+		right: 20px;
+		top: 100px;
+	}
+
+	.banner .banner-inner {
+		margin: -110px 0px 0px;
+		padding: 0px 0px 0px 10px;
+	}
+
+	.banner-inner h1 {
+		font-size: 24px;
+		max-width: 250px;
+		line-height: 30px;
+	}
+
+	.banner-inner p {
+		font-size: 10px;
+		line-height: 18px;
+		margin-bottom: 20px;
+	}
+
+	.banner-blob-left {
+		margin-top: 40px;
+		height: 20px;
+		left: 20px;
+	}
+
+	.banner-inner .general-btn {
+		font-size: 8px;
+		width: 100px;
+		height: 30px;
+	}
+
+	.banner .banner-preview {
+		margin-top: -21px;
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-inner {
+		margin-top: -70px;
+		padding: 60px 0px 0px;
+	}
+
+	.pricing-blob-right {
+		height: 20px;
+		margin-top: 20px;
+		right: 40px;
+	}
+
+	.pricing-blob-left {
+		margin-top: 100px;
+		height: 20px;
+		left: 10px;
+	}
+
+	.sub-heading {
+		font-size: 19px;
+		line-height: 20px;
+		padding-bottom: 5px;
+	}
+
+	.sub-description {
+		font-size: 10px;
+		line-height: 10px;
+	}
+
+	.pricing-card .pricing-card-content {
+		margin: 0px 0px 30px 0px;
+		padding: 30px 20px;
+	}
+
+	.price-icon img {
+		height: 60px;
+	}
+
+	.price-heading h3 {
+		font-size: 14px;
+		padding-bottom: 0px;
+	}
+
+	.price-heading span {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.price-heading p {
+		font-size: 8px;
+		margin-top: 1px;
+	}
+
+	.pricing-card-content .account-services {
+		padding-top: 30px;
+		min-height: 310px;
+	}
+
+	.pricing-card-content .account-services li {
+		font-size: 10px;
+		line-height: 20px;
+	}
+
+	.pricing-card-content a {
+		height: 39px;
+		font-size: 12px;
+	}
+
+	.pricing-card-content a {
+		height: 32px;
+		font-size: 10px;
+	}
+
+	.circle-right {
+		right: -40%;
+		height: 350px;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-us {
+		padding: 50px 10px;
+	}
+
+	.about-blob-left-top {
+		margin-top: 0px;
+		right: 20px;
+		height: 20px;
+	}
+
+	.circle-left {
+		left: -55%;
+		height: 500px;
+		margin-top: -180px;
+	}
+
+	.about-us-content .description {
+		font-size: 10px;
+		line-height: 20px;
+		padding: 25px 0px;
+	}
+
+	.about-blob-right {
+		right: 20px;
+		height: 25px;
+	}
+
+	.about-blob-left {
+		height: 20px;
+		left: 25px;
+	}
+
+	/* About us end */
+
+	/* faq start */
+
+	.faq .faq-headings {
+		padding-left: 10px;
+	}
+
+	.card {
+		margin: 15px 10px;
+	}
+
+	.collapsible-link {
+		font-size: 10px;
+		padding: 0px 10px;
+	}
+
+	.collapsible-link::before {
+		font-size: 0.8rem;
+		right: 20px;
+	}
+
+	.card-body p {
+		font-size: 10px;
+		line-height: 16px;
+	}
+
+	/* faq end */
+
+	/* still not sure start */
+
+	.not-sure {
+		padding: 30px 0px 0px;
+	}
+
+	.not-sure .not-sure-inner {
+		padding: 30px 0px;
+	}
+
+	.not-sure-content .avatar {
+		height: 40px;
+		width: 40px;
+	}
+
+	.avatar-content {
+		width: 100%;
+		padding: 15px 20px 0px;
+		font-size: 10px;
+		line-height: 18px;
+		margin-top: 0px;
+	}
+
+	.not-sure-inner .not-sure-content {
+		padding: 20px 22px;
+	}
+
+	.not-sure-content .not-sure-content-preview {
+		height: 200px;
+	}
+
+	/* still not sure end */
+
+	/* footer start */
+	footer .graph {
+		margin-top: -80px;
+	}
+
+	footer .footer-inner {
+		margin-top: -120px;
+	}
+
+	.footer-inner .join-us h4 {
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.join-us-btn .green-btn {
+		margin: 0px 8px;
+		font-size: 8px;
+		width: 85px;
+		height: 30px;
+	}
+
+	.join-us-btn .white-btn {
+		margin: 0px 8px;
+		font-size: 8px;
+		width: 85px;
+		height: 30px;
+	}
+
+	.social-media {
+		padding: 20px 10px 0px;
+	}
+
+	.social-media .row {
+		justify-content: left !important;
+	}
+
+	.social-media h4 {
+		font-size: 12px;
+		text-align: left;
+	}
+
+	.social-media a {
+		margin: 15px 5px;
+		width: 30px;
+		height: 30px;
+	}
+
+	.social-media a img {
+		height: 9px;
+	}
+
+	.important-links h4 {
+		font-size: 12px;
+	}
+
+	.important-links ul li {
+		font-size: 7px;
+		line-height: 18px;
+	}
+
+	.footer-inner .important-links {
+		padding: 20px 10px 0px;
+	}
+
+	.copyright img {
+		height: 20px;
+		top: 40px;
+	}
+
+	/* footer end */
+}
+
+@media only screen and (max-width: 375px) {
+
+	/* banner start  */
+
+	.banner-blob-right {
+		height: 18px;
+		right: 20px;
+		top: 100px;
+	}
+
+	.banner .banner-inner {
+		margin: -130px 0px 0px;
+		padding: 0px 0px 0px 10px;
+	}
+
+	.banner-inner h1 {
+		font-size: 22px;
+		max-width: 250px;
+		line-height: 25px;
+	}
+
+	.banner-inner p {
+		font-size: 10px;
+		line-height: 15px;
+		margin-bottom: 20px;
+	}
+
+	.banner-blob-left {
+		margin-top: 44px;
+		height: 18px;
+		left: 10px;
+	}
+
+	.banner-inner .general-btn {
+		font-size: 8px;
+		width: 100px;
+		height: 30px;
+	}
+
+	/* banner End  */
+
+	/* pricing start */
+
+	.pricing-inner {
+		padding: 40px 0px 0px;
+	}
+
+	.pricing-blob-right {
+		height: 18px;
+		margin-top: 20px;
+		right: 40px;
+	}
+
+	.pricing-blob-left {
+		margin-top: 100px;
+		height: 18px;
+		left: 10px;
+	}
+
+	.sub-heading {
+		font-size: 17px;
+		line-height: 19px;
+		padding-bottom: 3px;
+	}
+
+	.sub-description {
+		font-size: 10px;
+		line-height: 10px;
+	}
+
+	.pricing-inner .pricing-card {
+		padding-top: 39px;
+	}
+
+	.pricing-card .pricing-card-content {
+		margin: 0px 0px 25px 0px;
+		padding: 25px 18px;
+	}
+
+	.price-icon img {
+		height: 45px;
+	}
+
+	.price-heading h3 {
+		font-size: 13px;
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+
+	.price-heading span {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.price-heading p {
+		font-size: 8px;
+		margin-top: 1px;
+	}
+
+	.pricing-card-content .account-services {
+		padding-top: 25px;
+		min-height: 290px;
+	}
+
+	.pricing-card-content .account-services li {
+		font-size: 9px;
+		line-height: 19px;
+	}
+
+	.pricing-card-content a {
+		height: 30px;
+		font-size: 9px;
+		margin: 4px 20px 0px auto;
+	}
+
+	.free-pricing-card a {
+		height: 28px;
+		width: 70px;
+		font-size: 7px;
+	}
+
+	.circle-right {
+		right: -50%;
+		height: 300px;
+	}
+
+	/* pricing end */
+
+	/* About us start */
+
+	.about-us {
+		padding: 30px 10px;
+	}
+
+	.about-blob-left-top {
+		margin-top: 0px;
+		right: 20px;
+		height: 18px;
+	}
+
+	.circle-left {
+		left: -55%;
+		height: 450px;
+		margin-top: -180px;
+	}
+
+	.about-us-content .description {
+		font-size: 10px;
+		line-height: 18px;
+		padding: 20px 0px;
+	}
+
+	.about-blob-right {
+		right: 20px;
+		height: 22px;
+	}
+
+	.about-blob-left {
+		height: 18px;
+		left: 25px;
+	}
+
+	/* About us end */
+
+	/* faq start */
+
+	.faq .faq-headings {
+		padding-left: 10px;
+	}
+
+	.card {
+		margin: 15px 10px;
+	}
+
+	.collapsible-link {
+		font-size: 10px;
+		padding: 0px 10px;
+	}
+
+	.collapsible-link::before {
+		font-size: 0.8rem;
+	}
+
+	.card-body p {
+		font-size: 10px;
+		line-height: 16px;
+	}
+
+	/* faq end */
+
+	/* still not sure start */
+
+	.not-sure {
+		padding: 10px 0px 0px;
+	}
+
+	.not-sure .not-sure-inner {
+		padding: 30px 0px;
+	}
+
+	.not-sure-content .avatar {
+		height: 45px;
+		width: 45px;
+	}
+
+	.avatar-content {
+		font-size: 10px;
+		line-height: 20px;
+		margin-top: 0px;
+	}
+
+	.not-sure-inner .not-sure-content {
+		padding: 20px 23px;
+		margin-bottom: 20px;
+	}
+
+	/* still not sure end */
+
+}
