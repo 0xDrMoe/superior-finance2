@@ -266,6 +266,7 @@ header {
 	font-size: 35px;
 	line-height: 26px;
 	color: white;
+	font-weight: 600;
 }
 
 .price-heading p {
