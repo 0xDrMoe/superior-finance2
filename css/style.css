@@ -429,17 +429,17 @@ i {
 
 .card-header .btn[aria-expanded=true] {
 	color: #fff;
-	background-color: linear-gradient(to right bottom, #373737, #2D2D2D);
+	background-color: black;
 	border-bottom: none;
 }
 
 
 .show {
-	background-color: linear-gradient(to right bottom, #373737, #2D2D2D);
+	background-color: show;
 }
 
 .card-body {
-	background-color: linear-gradient(to right bottom, #373737, #2D2D2D);
+	background-color: black !important;
 	padding: 0px 36px 36px;
 }
 
