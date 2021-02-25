@@ -429,17 +429,17 @@ i {
 
 .card-header .btn[aria-expanded=true] {
 	color: #fff;
-	background-color: black;
+	background-color: linear-gradient(to right bottom, #373737, #2D2D2D);
 	border-bottom: none;
 }
 
 
 .show {
-	background-color: black;
+	background-color: linear-gradient(to right bottom, #373737, #2D2D2D);
 }
 
 .card-body {
-	background-color: black !important;
+	background-color: linear-gradient(to right bottom, #373737, #2D2D2D);
 	padding: 0px 36px 36px;
 }
 
@@ -531,6 +531,7 @@ i {
 
 .avatar-content span {
 	justify-content: left;
+	font-weight: 600;
 }
 
 .not-sure-content .not-sure-content-preview {
