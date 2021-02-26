@@ -429,7 +429,7 @@ i {
 
 .card-header .btn[aria-expanded=true] {
 	color: #fff;
-	background-color: black;
+	background-color: linear-gradient(to right bottom, #373737, #2D2D2D);
 	border-bottom: none;
 }
 
@@ -439,7 +439,7 @@ i {
 }
 
 .card-body {
-	background-color: black !important;
+	background-color: linear-gradient(to right bottom, #373737, #2D2D2D) !important;
 	padding: 0px 36px 36px;
 }
 
@@ -643,7 +643,7 @@ footer .footer-inner {
 }
 
 .footer-inner .important-links {
-	text-align: left;
+	text-align: center;
 }
 
 .important-links h4 {
