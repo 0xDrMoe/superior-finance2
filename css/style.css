@@ -429,7 +429,7 @@ i {
 
 .card-header .btn[aria-expanded=true] {
 	color: #fff;
-	background-color: black;
+	background-color: #141414;
 	border-bottom: none;
 }
 
@@ -439,7 +439,7 @@ i {
 }
 
 .card-body {
-	background-color: black !important;
+	background-color: #141414 !important;
 	padding: 0px 36px 36px;
 }
 
