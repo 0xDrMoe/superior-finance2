@@ -7,6 +7,7 @@ body {
   text-transform: uppercase; 
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 h1{ margin: 0; }
 #contact { 
@@ -17,7 +18,7 @@ h1{ margin: 0; }
   width: 100px; 
   height: 30px; 
   line-height: 30px;
-  background: #141414;
+  background: #161616;
   color: white;
   font-weight: 700;
   text-align: center;
@@ -35,7 +36,7 @@ h1{ margin: 0; }
   padding: 2em;
   width: 400px;
   text-align: center;
-  background: #fff;
+  background: #161616;
   position: fixed;
   top:50%;
   left:50%;
@@ -67,3 +68,12 @@ textarea { height: 80px; resize: none; }
   border: none;
   height: 30px;
 }
+
+input.white-btn {
+  width: 140px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: 2px solid white !important;
+  height: 30px;
