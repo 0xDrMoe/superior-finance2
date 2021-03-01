@@ -15,5 +15,5 @@
        
                 mail($to,$subject,$txt,$headers);
 
-        echo "<script>alert('Thank you for contacting us.');window.location='contactform.php'</script></script>";
+        echo "<script>alert('Thank you for contacting us.');window.location='contactform.html'</script></script>";
 ?>
