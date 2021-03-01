@@ -19,6 +19,6 @@ $validator->field('message')->maxLength(6000);
 $pp->attachFiles(['image']);
 
 
-$pp->sendEmailTo('help@superiorfinance.io'); 
+$pp->sendEmailTo('superiorfinanceinvest@gmail.com'); 
 
 echo $pp->process($_POST);
