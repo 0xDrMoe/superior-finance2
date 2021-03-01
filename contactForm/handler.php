@@ -2,10 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-/*
-Tested working with PHP5.4 and above (including PHP 7 )
 
- */
 require_once './vendor/autoload.php';
 
 use FormGuide\Handlx\FormHandler;
@@ -22,6 +19,6 @@ $validator->field('message')->maxLength(6000);
 $pp->attachFiles(['image']);
 
 
-$pp->sendEmailTo('someone@gmail.com'); // ← Your email here
+$pp->sendEmailTo('help@superiorfinance.io'); 
 
 echo $pp->process($_POST);
