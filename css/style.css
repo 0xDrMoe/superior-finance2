@@ -2379,7 +2379,7 @@ footer .footer-inner {
 
 	.sub-heading {
 		font-size: 29px;
-		line-height: 20px;
+		line-height: 25px;
 		padding-bottom: 5px;
 	}
 
@@ -2520,11 +2520,11 @@ footer .footer-inner {
 	}
 
 	.footer-inner .join-us {
-		text-align: left;
+		text-align: center;
 	}
 
 	.footer-inner .join-us .join-us-btn {
-		justify-content: left;
+		justify-content: center;
 		flex-wrap: wrap;
 	}
 
@@ -2543,7 +2543,7 @@ footer .footer-inner {
 
 	.join-us-btn .white-btn {
 		margin: 0px 8px;
-		font-size: 17px;
+		font-size: 15px;
 		width: 135px;
 		height: 40px;
 	}
@@ -2557,7 +2557,7 @@ footer .footer-inner {
 	}
 
 	.social-media h4 {
-		text-align: left;
+		text-align: center;
 	}
 
 	.social-media a {
@@ -2767,6 +2767,7 @@ footer .footer-inner {
 	.footer-inner .join-us h4 {
 		font-size: 23px;
 		line-height: 24px;
+		text-align: center;
 	}
 
 	.join-us-btn .green-btn {
@@ -2778,7 +2779,7 @@ footer .footer-inner {
 
 	.join-us-btn .white-btn {
 		margin: 0px 8px;
-		font-size: 15px;
+		font-size: 13px;
 		width: 115px;
 		height: 35px;
 	}
@@ -2793,7 +2794,7 @@ footer .footer-inner {
 
 	.social-media h4 {
 		font-size: 21px;
-		text-align: left;
+		text-align: center;
 	}
 
 	.social-media a {
@@ -3069,6 +3070,7 @@ footer .footer-inner {
 	.footer-inner .join-us h4 {
 		font-size: 18px;
 		line-height: 22px;
+		text-align: center;
 	}
 
 	.join-us-btn .green-btn {
@@ -3080,7 +3082,7 @@ footer .footer-inner {
 
 	.join-us-btn .white-btn {
 		margin: 0px 8px;
-		font-size: 13px;
+		font-size: 11px;
 		width: 85px;
 		height: 30px;
 	}
@@ -3095,7 +3097,7 @@ footer .footer-inner {
 
 	.social-media h4 {
 		font-size: 17px;
-		text-align: left;
+		text-align: center;
 	}
 
 	.social-media a {
