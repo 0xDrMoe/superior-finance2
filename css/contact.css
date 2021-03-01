@@ -25,6 +25,11 @@ h1{ margin: 0; }
   cursor: pointer;
   border: 1px solid white;
 }
+h1 {
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
 
 #contact:hover { background: #666; }
 #contact:active { background: #444; }
@@ -58,22 +63,33 @@ input, textarea {
 textarea { height: 80px; resize: none; }
 
 .formBtn { 
-  width: 140px;
-  display: inline-block;
-  
-  background: linear-gradient(to right bottom, #57D760, #32A936);
-  color: #fff;
-  font-weight: 100;
-  font-size: 1.2em;
-  border: none;
-  height: 30px;
+    width: 140px;
+    display: inline-block;
+    background: linear-gradient(to right bottom, #57D760, #32A936);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
 }
 
 input.white-btn {
-  width: 140px;
-  display: inline-block;
-  color: #fff;
-  font-weight: 100;
-  font-size: 1.2em;
-  border: 2px solid white !important;
-  height: 30px;
+    width: 140px;
+    display: inline-block;
+    border: 2px solid white !important;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+  }
