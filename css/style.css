@@ -681,7 +681,7 @@ footer .footer-inner {
 
 	/* banner start  */
 	.banner .banner-preview {
-		max-width: calc(100% + 8%);
+		max-width: 100%;
 		margin-top: -155px;
 	}
 
@@ -797,7 +797,7 @@ footer .footer-inner {
 
     
 	.banner .banner-preview {
-		max-width: calc(100% + 8%);
+		max-width: 100%;
 		margin-top: -144px;
 	}
 
@@ -1490,7 +1490,7 @@ footer .footer-inner {
 		line-height: 50px;
 	}
 	.banner .banner-preview {
-    max-width: calc(100% + 8%);
+    max-width: 100%;
     margin-top: -87px;
 	   
 	    
@@ -1767,7 +1767,7 @@ footer .footer-inner {
 		height: 44px;
 	}
 	.banner .banner-preview {
-    max-width: calc(100% + 8%);
+    max-width: 100%;
     margin-top: -80px;
 	    
 	}
@@ -2767,6 +2767,7 @@ footer .footer-inner {
 	.footer-inner .join-us h4 {
 		font-size: 18px;
 		line-height: 24px;
+		justify-content: center !important;
 	}
 
 	.join-us-btn .green-btn {
@@ -2788,7 +2789,7 @@ footer .footer-inner {
 	}
 
 	.social-media .row {
-		justify-content: left !important;
+		justify-content: center !important;
 	}
 
 	.social-media h4 {
@@ -3069,6 +3070,7 @@ footer .footer-inner {
 	.footer-inner .join-us h4 {
 		font-size: 13px;
 		line-height: 22px;
+		justify-content: center !important;
 	}
 
 	.join-us-btn .green-btn {
@@ -3090,7 +3092,7 @@ footer .footer-inner {
 	}
 
 	.social-media .row {
-		justify-content: left !important;
+		justify-content: center !important;
 	}
 
 	.social-media h4 {
@@ -3110,6 +3112,7 @@ footer .footer-inner {
 
 	.important-links h4 {
 		font-size: 12px;
+		justify-content: center !important;
 	}
 
 	.important-links ul li {
