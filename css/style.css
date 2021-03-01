@@ -2317,7 +2317,7 @@ footer .footer-inner {
 	.nav-content .header-btn {
 		width: 95px;
 		height: 32px;
-		font-size: 12px;
+		font-size: 17px;
 	}
 
 	/* header end */
@@ -2337,13 +2337,13 @@ footer .footer-inner {
 	}
 
 	.banner-inner h1 {
-		font-size: 28px;
+		font-size: 33px;
 		max-width: 340px;
 		line-height: 40px;
 	}
 
 	.banner-inner p {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 25px;
 		margin-bottom: 25px;
 	}
@@ -2378,7 +2378,7 @@ footer .footer-inner {
 	}
 
 	.sub-heading {
-		font-size: 24px;
+		font-size: 29px;
 		line-height: 20px;
 		padding-bottom: 5px;
 	}
@@ -2394,21 +2394,21 @@ footer .footer-inner {
 	}
 
 	.price-heading h3 {
-		font-size: 18px;
+		font-size: 23px;
 	}
 
 	.price-heading span {
-		font-size: 15px;
+		font-size: 20px;
 		line-height: 20px;
 	}
 
 	.price-heading p {
-		font-size: 12px;
+		font-size: 17px;
 		margin-top: 1px;
 	}
 
 	.price-heading p {
-		font-size: 13px;
+		font-size: 18px;
 		margin-top: 1px;
 		padding-left: 2px;
 	}
@@ -2445,7 +2445,7 @@ footer .footer-inner {
 	}
 
 	.about-us-content .description {
-		font-size: 12px;
+		font-size: 17px;
 		line-height: 20px;
 	}
 
@@ -2471,12 +2471,12 @@ footer .footer-inner {
 	}
 
 	.collapsible-link {
-		font-size: 13px;
+		font-size: 18px;
 		padding: 10px 10px;
 	}
 
 	.card-body p {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 20px;
 	}
 
@@ -2503,7 +2503,7 @@ footer .footer-inner {
 
 	.avatar-content {
 		width: 75%;
-		font-size: 10px;
+		font-size: 15px;
 		margin-top: 0px;
 	}
 
@@ -2529,21 +2529,21 @@ footer .footer-inner {
 	}
 
 	.footer-inner .join-us h4 {
-		font-size: 20px;
+		font-size: 25px;
 		line-height: 30px;
 		padding-left: 10px;
 	}
 
 	.join-us-btn .green-btn {
 		margin: 0px 8px;
-		font-size: 12px;
+		font-size: 17px;
 		width: 135px;
 		height: 40px;
 	}
 
 	.join-us-btn .white-btn {
 		margin: 0px 8px;
-		font-size: 12px;
+		font-size: 17px;
 		width: 135px;
 		height: 40px;
 	}
@@ -2553,7 +2553,7 @@ footer .footer-inner {
 	}
 
 	.social-media .row {
-		justify-content: left !important;
+		justify-content: center !important;
 	}
 
 	.social-media h4 {
@@ -2590,13 +2590,13 @@ footer .footer-inner {
 	}
 
 	.banner-inner h1 {
-		font-size: 24px;
+		font-size: 29px;
 		max-width: 300px;
 		line-height: 30px;
 	}
 
 	.banner-inner p {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 18px;
 		margin-bottom: 20px;
 	}
@@ -2608,7 +2608,7 @@ footer .footer-inner {
 	}
 
 	.banner-inner .general-btn {
-		font-size: 8px;
+		font-size: 13px;
 		width: 100px;
 		height: 30px;
 	}
@@ -2639,13 +2639,13 @@ footer .footer-inner {
 	}
 
 	.sub-heading {
-		font-size: 21px;
+		font-size: 26px;
 		line-height: 20px;
 		padding-bottom: 5px;
 	}
 
 	.sub-description {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 10px;
 	}
 
@@ -2659,17 +2659,17 @@ footer .footer-inner {
 	}
 
 	.price-heading h3 {
-		font-size: 16px;
+		font-size: 21px;
 		padding-bottom: 0px;
 	}
 
 	.price-heading span {
-		font-size: 14px;
+		font-size: 19px;
 		line-height: 20px;
 	}
 
 	.price-heading p {
-		font-size: 10px;
+		font-size: 15px;
 		margin-top: 1px;
 	}
 
@@ -2699,7 +2699,7 @@ footer .footer-inner {
 	}
 
 	.about-us-content .description {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 20px;
 		padding: 30px 0px;
 	}
@@ -2727,12 +2727,12 @@ footer .footer-inner {
 	}
 
 	.collapsible-link {
-		font-size: 12px;
+		font-size: 17px;
 		padding: 8px 10px;
 	}
 
 	.card-body p {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 16px;
 	}
 
@@ -2765,20 +2765,20 @@ footer .footer-inner {
 	}
 
 	.footer-inner .join-us h4 {
-		font-size: 18px;
+		font-size: 23px;
 		line-height: 24px;
 	}
 
 	.join-us-btn .green-btn {
 		margin: 0px 8px;
-		font-size: 10px;
+		font-size: 15px;
 		width: 115px;
 		height: 35px;
 	}
 
 	.join-us-btn .white-btn {
 		margin: 0px 8px;
-		font-size: 10px;
+		font-size: 15px;
 		width: 115px;
 		height: 35px;
 	}
@@ -2788,11 +2788,11 @@ footer .footer-inner {
 	}
 
 	.social-media .row {
-		justify-content: left !important;
+		justify-content: center !important;
 	}
 
 	.social-media h4 {
-		font-size: 16px;
+		font-size: 21px;
 		text-align: left;
 	}
 
@@ -2807,11 +2807,11 @@ footer .footer-inner {
 	}
 
 	.important-links h4 {
-		font-size: 16px;
+		font-size: 21px;
 	}
 
 	.important-links ul li {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 25px;
 	}
 
@@ -2851,13 +2851,13 @@ footer .footer-inner {
 	}
 
 	.banner-inner h1 {
-		font-size: 24px;
+		font-size: 29px;
 		max-width: 250px;
 		line-height: 30px;
 	}
 
 	.banner-inner p {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 18px;
 		margin-bottom: 20px;
 	}
@@ -2869,7 +2869,7 @@ footer .footer-inner {
 	}
 
 	.banner-inner .general-btn {
-		font-size: 8px;
+		font-size: 13px;
 		width: 100px;
 		height: 30px;
 	}
@@ -2900,13 +2900,13 @@ footer .footer-inner {
 	}
 
 	.sub-heading {
-		font-size: 19px;
+		font-size: 24px;
 		line-height: 20px;
 		padding-bottom: 5px;
 	}
 
 	.sub-description {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 10px;
 	}
 
@@ -2920,17 +2920,17 @@ footer .footer-inner {
 	}
 
 	.price-heading h3 {
-		font-size: 14px;
+		font-size: 19px;
 		padding-bottom: 0px;
 	}
 
 	.price-heading span {
-		font-size: 12px;
+		font-size: 17px;
 		line-height: 20px;
 	}
 
 	.price-heading p {
-		font-size: 8px;
+		font-size: 13px;
 		margin-top: 1px;
 	}
 
@@ -2940,18 +2940,18 @@ footer .footer-inner {
 	}
 
 	.pricing-card-content .account-services li {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 20px;
 	}
 
 	.pricing-card-content a {
 		height: 39px;
-		font-size: 12px;
+		font-size: 17px;
 	}
 
 	.pricing-card-content a {
 		height: 32px;
-		font-size: 10px;
+		font-size: 15px;
 	}
 
 	.circle-right {
@@ -2980,7 +2980,7 @@ footer .footer-inner {
 	}
 
 	.about-us-content .description {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 20px;
 		padding: 25px 0px;
 	}
@@ -3008,7 +3008,7 @@ footer .footer-inner {
 	}
 
 	.collapsible-link {
-		font-size: 10px;
+		font-size: 15px;
 		padding: 0px 10px;
 	}
 
@@ -3018,7 +3018,7 @@ footer .footer-inner {
 	}
 
 	.card-body p {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 16px;
 	}
 
@@ -3067,20 +3067,20 @@ footer .footer-inner {
 	}
 
 	.footer-inner .join-us h4 {
-		font-size: 13px;
+		font-size: 18px;
 		line-height: 22px;
 	}
 
 	.join-us-btn .green-btn {
 		margin: 0px 8px;
-		font-size: 8px;
+		font-size: 13px;
 		width: 85px;
 		height: 30px;
 	}
 
 	.join-us-btn .white-btn {
 		margin: 0px 8px;
-		font-size: 8px;
+		font-size: 13px;
 		width: 85px;
 		height: 30px;
 	}
@@ -3090,11 +3090,11 @@ footer .footer-inner {
 	}
 
 	.social-media .row {
-		justify-content: left !important;
+		justify-content: center !important;
 	}
 
 	.social-media h4 {
-		font-size: 12px;
+		font-size: 17px;
 		text-align: left;
 	}
 
@@ -3109,11 +3109,11 @@ footer .footer-inner {
 	}
 
 	.important-links h4 {
-		font-size: 12px;
+		font-size: 17px;
 	}
 
 	.important-links ul li {
-		font-size: 7px;
+		font-size: 12px;
 		line-height: 18px;
 	}
 
@@ -3145,13 +3145,13 @@ footer .footer-inner {
 	}
 
 	.banner-inner h1 {
-		font-size: 22px;
+		font-size: 27px;
 		max-width: 250px;
 		line-height: 25px;
 	}
 
 	.banner-inner p {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 15px;
 		margin-bottom: 20px;
 	}
@@ -3163,7 +3163,7 @@ footer .footer-inner {
 	}
 
 	.banner-inner .general-btn {
-		font-size: 8px;
+		font-size: 13px;
 		width: 100px;
 		height: 30px;
 	}
@@ -3189,13 +3189,13 @@ footer .footer-inner {
 	}
 
 	.sub-heading {
-		font-size: 17px;
+		font-size: 22px;
 		line-height: 19px;
 		padding-bottom: 3px;
 	}
 
 	.sub-description {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 10px;
 	}
 
@@ -3213,18 +3213,18 @@ footer .footer-inner {
 	}
 
 	.price-heading h3 {
-		font-size: 13px;
+		font-size: 18px;
 		padding-bottom: 0px;
 		padding-top: 0px;
 	}
 
 	.price-heading span {
-		font-size: 12px;
+		font-size: 17px;
 		line-height: 20px;
 	}
 
 	.price-heading p {
-		font-size: 8px;
+		font-size: 13px;
 		margin-top: 1px;
 	}
 
@@ -3234,20 +3234,20 @@ footer .footer-inner {
 	}
 
 	.pricing-card-content .account-services li {
-		font-size: 9px;
+		font-size: 14px;
 		line-height: 19px;
 	}
 
 	.pricing-card-content a {
 		height: 30px;
-		font-size: 9px;
+		font-size: 14px;
 		margin: 4px 20px 0px auto;
 	}
 
 	.free-pricing-card a {
 		height: 28px;
 		width: 70px;
-		font-size: 7px;
+		font-size: 12px;
 	}
 
 	.circle-right {
@@ -3276,7 +3276,7 @@ footer .footer-inner {
 	}
 
 	.about-us-content .description {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 18px;
 		padding: 20px 0px;
 	}
@@ -3304,7 +3304,7 @@ footer .footer-inner {
 	}
 
 	.collapsible-link {
-		font-size: 10px;
+		font-size: 15px;
 		padding: 0px 10px;
 	}
 
@@ -3313,7 +3313,7 @@ footer .footer-inner {
 	}
 
 	.card-body p {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 16px;
 	}
 
@@ -3335,7 +3335,7 @@ footer .footer-inner {
 	}
 
 	.avatar-content {
-		font-size: 10px;
+		font-size: 15px;
 		line-height: 20px;
 		margin-top: 0px;
 	}
@@ -3346,5 +3346,11 @@ footer .footer-inner {
 	}
 
 	/* still not sure end */
+	
+// Example
+// Apply styles starting from medium devices and up to extra large devices
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+	display: flex;
+	}
 
 }
