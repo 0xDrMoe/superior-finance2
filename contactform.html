@@ -1,38 +1,34 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"
-    <link type="Text/css" rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/contact.css">
-  </head>
-  
-  <body>
-    <div class="contact-us">
-      <form action="" method="post" class="popup-form">
-        <p>Contact Us</p><br>
-               <label for="name"><b>Full Name</b></label><br>
-               <input type="text" placeholder="Your name" name="name" required><br>
-               <label for="email"><b>Email</b></label><br>
-               <input type="text" placeholder="Your email" name="email" required><br>
-               <label for="Message"><b>Message</b></label><br>
-               <textarea placeholder="Your Message" name="message" required></textarea><br>
-               <button type="submit" class="button">Send</button>
-               <button type="button" class="button chatOff" onclick="closeForm()">Close</button>
-           </form>
-       </div>
-    
-    <script>
-           function openForm() {
-               document.getElementById("myForm").style.cssText = "display: block;";
-           }
-           function closeForm() {
-               document.getElementById("myForm").style.cssText = "display: none;";
-           }
-       </script>
-    
-  </body>
-  
+    <link rel="stylesheet" href="#" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form action="webform.php" method="POST" class="form">
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" tabindex="1" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="4"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+    </div>
+</body>
+
 </html>
