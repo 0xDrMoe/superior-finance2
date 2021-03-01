@@ -5,7 +5,8 @@ body {
   background: #333;
   font-family: 'Gilroy'; 
   text-transform: uppercase; 
-  font-size: 11px; 
+  font-size: 11px;
+  text-align: center;
 }
 h1{ margin: 0; }
 #contact { 
@@ -30,7 +31,7 @@ h1{ margin: 0; }
 #contactForm { 
   display: none;
 
-  border: 6px solid salmon; 
+  border: 2px solid white; 
   padding: 2em;
   width: 400px;
   text-align: center;
@@ -59,7 +60,7 @@ textarea { height: 80px; resize: none; }
   width: 140px;
   display: inline-block;
   
-  background: teal;
+  background: linear-gradient(to right bottom, #57D760, #32A936);
   color: #fff;
   font-weight: 100;
   font-size: 1.2em;
