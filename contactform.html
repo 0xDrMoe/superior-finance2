@@ -1,42 +1,20 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css" media="all">
-    <link rel="stylesheet" href="css/contact.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
-    <script src="main.js"></script>
-</head>
+<html>
+<div id="contact">Contact Us</div>
 
-<body>
-    <h3>
-        Contact Us
-    </h3>
-   
-    <div class="container">
-        <form
+<div id="contactForm">
+
+  <h1>Contact Us</h1>
+  
+  <form
   action="https://formspree.io/f/mwkwdrje"
   method="POST"
-        >
-            <div class="form-group">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" tabindex="1" required>
-            </div>
-            <div class="form-group">
-                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2" required>
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3" required>
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="4"></textarea>
-            </div>
-            <div>
-                <button type="submit" class="btn">Send Message</button>
-            </div>
-        </form>
-    </div>
-</body>
-
+   >
+    <input placeholder="Name" type="text" required />
+    <input placeholder="Email" type="email" required />
+    <input placeholder="Subject" type="text" required />
+    <textarea placeholder="Comment"></textarea>
+    <input class="formBtn" type="submit" />
+    <input class="formBtn" type="reset" />
+  </form>
+</div>
 </html>
