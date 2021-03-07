@@ -286,7 +286,7 @@ i {
 
 .pricing-card-content .account-services {
 	padding-top: 55px;
-	min-height: 250px;
+	min-height: 300px;
 }
 
 .account-services li {
@@ -1822,7 +1822,7 @@ footer .footer-inner {
 
 	.pricing-card-content .account-services {
 		padding-top: 45px;
-		min-height: 390px;
+		min-height: 250px;
 	}
 
 	.pricing-card-content .account-services li {
@@ -2116,7 +2116,7 @@ footer .footer-inner {
 
 	.pricing-card-content .account-services {
 		padding-top: 35px;
-		min-height: 390px;
+		min-height: 250px;
 	}
 
 	.pricing-card-content .account-services li {
