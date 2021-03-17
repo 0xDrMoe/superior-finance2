@@ -172,6 +172,10 @@ header {
 	margin-top: -200px;
 }
 
+.banner .banner-preview-mobile {
+	display: none;
+}
+
 /*-_-_Banner_CSS_End_-_-*/
 
 /*-_-_Content_CSS_Start_-_-*/
@@ -551,10 +555,14 @@ footer {
 	padding: 0px 0px;
 }
 
-footer .graph {car
+footer .graph {
 	position: relative;
 	z-index: -1;
 	margin-top: -310px;
+}
+
+footer .graph-mobile {
+	display: none;
 }
 
 footer .footer-wrap {
@@ -565,6 +573,10 @@ footer .footer-wrap {
 footer .footer-inner {
 	z-index: 99;
 	margin-top: -0px;
+}
+
+footer .footer-inner .footer-logo {
+	display: none;
 }
 
 .footer-inner .join-us {
