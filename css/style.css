@@ -518,8 +518,6 @@ i {
 	border-radius: 15px;
 	width: 100%;
 	margin-bottom: 30px;
-	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-	background: linear-gradient(to right bottom, #373737, #2D2D2D);
 }
 
 .not-sure-content .quote {
