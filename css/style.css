@@ -1645,7 +1645,7 @@ footer .footer-inner .footer-logo {
 	/* faq start */
 
 	.faq .faq-headings {
-		padding-left: 100px;
+		text-align: center;
 	}
 
 	.card {
@@ -2016,7 +2016,7 @@ footer .footer-inner .footer-logo {
 	}
 
 	.faq .faq-headings {
-		padding-left: 41px;
+		text-align: center;
 	}
 
 	.card {
@@ -2068,14 +2068,8 @@ footer .footer-inner .footer-logo {
 	/* still not sure start */
 	.not-sure {
 		padding: 100px 0px 0px;
-		display: none;
 	}
-	
-	.not-sure-mobile {
-		display: block;
-		margin-top: 0;
-		width: 100%;
-	}
+
 
 	.not-sure-content .quote {
 		height: 12px;
