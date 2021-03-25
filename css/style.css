@@ -505,6 +505,12 @@ i {
 	text-align: center;
 }
 
+.not-sure-card (
+	margin: 20px 140px;
+	border-radius: 15px;
+	overflow: hidden;
+	z-index: 99;
+
 .not-sure .not-sure-inner {
 	padding: 80px 0px;
 	display: flex;
