@@ -140,6 +140,20 @@ header {
 	margin-bottom: 28px;
 }
 
+.banner-inner ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.banner-inner ul li {
+	margin-right: 19px;
+}
+
+.banner-inner ul li:last-child {
+	display: none;
+	margin-right: 0;
+}
+
 .banner-inner .general-btn {
 	background: linear-gradient(to right bottom, #57D760, #32A936);
 	width: 184px;
