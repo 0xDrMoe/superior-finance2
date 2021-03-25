@@ -2070,6 +2070,15 @@ footer .footer-inner .footer-logo {
 		padding: 100px 0px 0px;
 	}
 
+	img#notsure {
+		display: none;
+	}
+
+	.not-sure-mobile {
+		display: block;
+		margin-top: 0;
+		width: 100%;
+
 
 	.not-sure-content .quote {
 		height: 12px;
