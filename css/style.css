@@ -535,6 +535,10 @@ i {
 	background: linear-gradient(to right bottom, #373737, #2D2D2D);
 }
 
+ .not-sure-mobile {
+	display: none;
+}
+
 .not-sure-content .quote {
 	height: 29px;
 }
@@ -2065,6 +2069,12 @@ footer .footer-inner .footer-logo {
 	.not-sure {
 		padding: 100px 0px 0px;
 		display: none;
+	}
+	
+	.not-sure-mobile {
+		display: block;
+		margin-top: 0;
+		width: 100%;
 	}
 
 	.not-sure-content .quote {
