@@ -503,28 +503,22 @@ i {
 .not-sure {
 	padding: 226px 0px 0px;
 	text-align: center;
-	
-}
+	align-items: center;
 
 
 .not-sure .not-sure-inner {
 	width: 950px;
     max-width: 90vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    border-radius: 21px;
-    margin-bottom: 65px;
+    
 }
 
 .not-sure-inner .not-sure-content {
 		width: 950px;
     max-width: 90vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
