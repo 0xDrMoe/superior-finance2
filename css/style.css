@@ -503,8 +503,6 @@ i {
 .not-sure {
 	padding: 226px 0px 0px;
 	text-align: center;
-	width: 950px;
-    max-width: 90vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
