@@ -507,12 +507,12 @@ i {
 
 
 .not-sure .not-sure-inner {
-	background-color: transparent;
-    height: 185px;
-    left: 0px;
-    position: absolute;
-    top: 0px;
-    width: calc(100.00% - 1px);
+	padding: 80px 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 20px 140px;
 }
 
 .not-sure-inner .not-sure-content {
