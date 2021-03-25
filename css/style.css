@@ -511,6 +511,12 @@ i {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	width: 950px;
+    max-width: 90vw;
+    display: flex;
+    align-items: center;
+    border-radius: 21px;
+    margin-bottom: 65px;
 }
 
 .not-sure-inner .not-sure-content {
