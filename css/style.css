@@ -418,7 +418,7 @@ i {
 }
 
 .faq .faq-headings {
-	padding-left: 140px;
+	text-align: center;
 }
 
 .card {
@@ -514,7 +514,7 @@ i {
 		
 }
 .not-sure .not-sure-inner {
-	padding: 80px 0px;
+	padding: 49px 0px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
