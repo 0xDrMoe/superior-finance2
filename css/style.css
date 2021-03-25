@@ -503,7 +503,7 @@ i {
 .not-sure {
 	padding: 226px 0px 0px;
 	text-align: center;
-	align-items: center;
+	
 
 
 .not-sure .not-sure-inner {
@@ -524,36 +524,6 @@ i {
     -ms-flex-align: center;
     align-items: center;
 	
-}
-
-.not-sure-content .quote {
-	height: 29px;
-}
-
-.not-sure-content .avatar {
-	height: 110px;
-	width: 110px;
-	border-radius: 50%;
-	border: 0px solid #707070;
-	padding: 7px 7px;
-	margin-left: 10px;
-}
-
-.avatar-content {
-	width: 65%;
-	text-align: left;
-	padding-left: 24px;
-	font-size: 17px;
-	line-height: 26px;
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	justify-content: center;
-}
-
-.avatar-content span {
-	justify-content: left;
-	font-weight: 600;
 }
 
 .not-sure-content .not-sure-content-preview {
