@@ -506,6 +506,7 @@ i {
 }
 
 .not-sure .not-sure-inner {
+	padding: 80px 0px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
