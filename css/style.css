@@ -506,7 +506,6 @@ i {
 }
 
 .not-sure .not-sure-inner {
-	padding: 80px 0px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -515,8 +514,7 @@ i {
     max-width: 90vw;
     display: flex;
     align-items: center;
-    border-radius: 21px;
-    margin-bottom: 65px;
+    
 }
 
 .not-sure-inner .not-sure-content {
