@@ -1541,6 +1541,31 @@ footer .footer-inner .footer-logo {
 		height: 365px;
 	}
 
+	.not-sure .not-sure-inner {
+		padding: 40px 0px 70px;
+		max-width: 940px;
+	}
+	.ocgn-content .ocgn-content-inner span {
+		font-size: 22px;
+	}
+
+	.ocgn-content .ocgn-content-inner h6 {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+
+	.ocgn-content .gain-content {
+		font-size: 15px;
+	}
+
+	.ocgn-content .gain-content img {
+		width: 18px;
+	}
+
+	.not-sure-content .entry-sold-content p {
+		font-size: 19px;
+		line-height: 1.57;
+	}
 	/* still not sure end */
 
 	/* footer start */
