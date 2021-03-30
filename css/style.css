@@ -499,93 +499,163 @@ i {
 
 /* Faq End */
 
-/* still not sure start */
-	.not-sure {
-		padding: 100px 0px 0px;
-		/* display: none; */
-	}
+/* Still Not Sure Start */
+.not-sure {
+	padding: 226px 0px 0px;
+	text-align: center;
+}
 
-	.not-sure-content .quote {
-		height: 12px;
-	}
+.not-sure .not-sure-inner {
+	padding: 50px 0px 80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	max-width: 996.5px;
+	margin: 0 auto;
+}
 
-	.not-sure-content .avatar {
-		height: 65px;
-		width: 65px;
-	}
+.not-sure-inner .not-sure-content {
+	width: 100%;
+	margin-bottom: 40px;
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+	/* background: linear-gradient(to right bottom, #373737, #2D2D2D); */
+}
 
-	.avatar-content {
-		width: 75%;
-		font-size: 12px;
-	}
+.not-sure-inner .not-sure-content:last-child {
+	margin-bottom: 0;
+}
 
-	.not-sure-content .not-sure-content-preview {
-		height: 300px;
-		margin-top: 30px;
-	}
+.not-sure-content .entry-sold-content {
+	width: calc(100% - 418px);
+	padding: 21.5px 51px 31.5px;
+	margin-left: -30px;
+	border-radius: 0 15px 15px 0;
+	background: linear-gradient(-30deg, #2C9B30, #5FC566);
+	min-height: 100%;
+}
 
+.not-sure-content .entry-sold-content p {
+	font-size: 20px;
+	line-height: 1.68;
+	color: #fff;
+	margin-bottom: 28px;
+	max-width: 225px;
+}
 
-	.not-sure .not-sure-inner {
-		padding: 20px 0px 50px;
-		max-width: 560px;
-	}
+.not-sure-content .entry-sold-content p:last-child {
+	margin-bottom: 0;
+}
 
-	.ocgn-content .ocgn-content-inner span {
-		font-size: 15px;
-		line-height: 1.34;
-	}
+.not-sure-content .ocgn-content {
+	width: 448px;
+	padding: 40px 0 19.5px;
+	background: linear-gradient(-30deg, #2C2C2C, #212121);
+	border-radius: 15px;
+	z-index: 5;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100%;
+}
 
-	.ocgn-content .ocgn-content-inner h6 {
-		font-size: 24px;
-		margin-bottom: 15.3px;
-	}
+.not-sure-content .ocgn-content .ocgn-content-inner {
+	width: 50%;
+	border-right: 3px solid #464646;
+	padding-left: 51.5px;
+	padding-right: 30px;
+}
 
-	.ocgn-content .gain-content {
-		font-size: 14px;
-		padding: 0 19px;
-	}
+.not-sure-content .ocgn-content .ocgn-content-inner:nth-child(2) {
+	border: 0;
+	padding-left: 33.5px;
+}
 
-	.ocgn-content .gain-content img {
-		width: 12px;
-		margin-right: 6.4px;
-	}
+.ocgn-content .ocgn-content-inner span {
+	display: block;
+	height: auto;
+	font-size: 24px;
+	line-height: 1.35;
+	font-weight: 500;
+	color: #68F758;
+	margin-bottom: -2px;
+}
 
-	.not-sure-content .entry-sold-content p {
-		font-size: 14px;
-		line-height: 1.4;
-		margin-bottom: 11px;
-		max-width: 160px;
-	}
+.ocgn-content .ocgn-content-inner h6 {
+	font-size: 38px;
+	line-height: 1.35;
+	font-weight: 700;
+	margin-bottom: 23.5px;
+}
 
-	.not-sure-content .ocgn-content {
-		width: 100%;
-		padding: 24.5px 0 11.5px;
-		min-height: unset;
-	}
+.ocgn-content .gain-content {
+	padding: 0 29.5px;
+	font-size: 16px;
+	line-height: 1.35;
+	font-weight: 500;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	color: #68F758;
+}
 
-	.not-sure-content .entry-sold-content,
-	.not-sure-content:nth-child(even) .entry-sold-content {
-		width: 100%;
-		padding: 15px 30px 60.1px;
-		min-height: unset;
-		margin: 0 0 -44px;
-		border-radius: 15px 15px 0 0;
-	}
+.ocgn-content .gain-content img {
+	margin-right: 10px;
+}
 
-	.not-sure-inner .not-sure-content,
-	.not-sure-inner .not-sure-content:nth-child(even) {
-		flex-direction: column-reverse;
-		padding: 0 45px;
-	}
+.not-sure-inner .not-sure-content:nth-child(even) {
+	flex-direction: row-reverse;
+}
 
-	.not-sure-content .ocgn-content .ocgn-content-inner {
-		padding-left: 33px;
-	}
+.not-sure-content:nth-child(even) .entry-sold-content {
+	margin-left: 0;
+	margin-right: -30px;
+	border-radius: 15px 0 0 15px;
+	padding-left: 30px;
+	background: linear-gradient(-30deg, #5FC566, #2C9B30);
+}
 
-	.not-sure-content .ocgn-content .ocgn-content-inner:nth-child(2) {
-		padding-left: 30px;
-	}
-	/* still not sure end */
+.not-sure-content .quote {
+	height: 29px;
+}
+
+.not-sure-content .avatar {
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+	border: 1px solid #707070;
+	padding: 7px 7px;
+	margin-left: 10px;
+}
+
+.avatar-content {
+	width: 65%;
+	text-align: left;
+	padding-left: 24px;
+	font-size: 17px;
+	line-height: 26px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+}
+
+.avatar-content span {
+	justify-content: left;
+}
+
+.not-sure-content .not-sure-content-preview {
+	background: linear-gradient(to right bottom, #585858, #3D3D3D);
+	height: 410px;
+	border-radius: 15px;
+	    width: 100%;
+	margin-top: 47px;
+}
+/* Still Not Sure End */
+
 
 
 /*-_-_Content_CSS_End_-_-*/
